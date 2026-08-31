@@ -8,7 +8,7 @@ This repository provides the supplementary experimental video associated with th
 
 The video demonstrates the real-platform closed-loop grasping experiments, including the visuo-tactile grasping process, adaptive gripper velocity regulation, and maximum contact-depth comparison.
 
-▶ **[Watch the Supplementary Experimental Video](https://cc214214.github.io/VTF-Closed-Loop-Grasping/)**
+▶ **[Watch the Supplementary Experimental Video](https://cc214214.github.io/VTF-Closed-Loop-Grasping/?v=2)**
 
 ## Experimental Platform
 
