@@ -1,23 +1,24 @@
 # Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination
 
-This repository provides the supplementary experimental video associated with the manuscript:
 
-**“Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination”**
+This repository provides the supplementary experimental videos associated with the manuscript:
 
-## Supplementary Videos
-
-### Video 1: Closed-Loop Visuo-Tactile Grasping Demonstration
-
-This video demonstrates the real-platform closed-loop grasping experiments, including the visuo-tactile grasping process, adaptive gripper velocity regulation, and contact-depth-based stopping strategy.
-
-▶ **[Watch the Closed-Loop Grasping Demonstration](VTF_Closed_Loop_Grasping_Demo.mp4)**
+**"Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination"**
 
 
-### Video 2: D-Sight Optical Tactile Sensor Demonstration
+## Supplementary Experimental Videos
 
-This video demonstrates the D-Sight optical tactile sensing process and the tactile deformation feedback captured by the sensor, which provides the tactile information for the proposed visuo-tactile framework.
+The supplementary webpage demonstrates the proposed visuo-tactile closed-loop manipulation framework, including:
 
-▶ **[Watch the D-Sight Tactile Sensor Demonstration](D_Sight_Optical_Tactile_Sensor_Demonstration.mp4)**
+- Closed-loop visuo-tactile grasping experiments
+- Adaptive gripper velocity regulation
+- D-Sight optical tactile sensing and deformation feedback
+
+
+▶ **Watch the Supplementary Experimental Videos**
+
+https://cc214214.github.io/VTF-Closed-Loop-Grasping/
+
 
 ## Experimental Platform
 
@@ -28,4 +29,5 @@ The experimental platform consists of:
 - Two D-Sight optical tactile sensors
 - Orbbec Femto Bolt camera
 
-The proposed system integrates synchronized visual and tactile sensing, contact-state inference, and adaptive gripper velocity regulation in a closed-loop perception–decision–actuation framework.
+
+The proposed system integrates synchronized visual and tactile sensing, contact-state inference, and adaptive gripper velocity regulation within a closed-loop perception–decision–action framework.
