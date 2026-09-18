@@ -4,11 +4,20 @@ This repository provides the supplementary experimental video associated with th
 
 **“Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination”**
 
-## Supplementary Video
+## Supplementary Videos
 
-The video demonstrates the real-platform closed-loop grasping experiments, including the visuo-tactile grasping process, adaptive gripper velocity regulation, and maximum contact-depth comparison.
+### Video 1: Closed-Loop Visuo-Tactile Grasping Demonstration
 
-▶ **[Watch the Supplementary Experimental Video](https://cc214214.github.io/VTF-Closed-Loop-Grasping/?v=2)**
+This video demonstrates the real-platform closed-loop grasping experiments, including the visuo-tactile grasping process, adaptive gripper velocity regulation, and contact-depth-based stopping strategy.
+
+▶ **[Watch the Closed-Loop Grasping Demonstration](VTF_Closed_Loop_Grasping_Demo.mp4)**
+
+
+### Video 2: D-Sight Optical Tactile Sensor Demonstration
+
+This video demonstrates the D-Sight optical tactile sensing process and the tactile deformation feedback captured by the sensor, which provides the tactile information for the proposed visuo-tactile framework.
+
+▶ **[Watch the D-Sight Tactile Sensor Demonstration](D_Sight_Optical_Tactile_Sensor_Demonstration.mp4)**
 
 ## Experimental Platform
 
