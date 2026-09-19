@@ -2,13 +2,12 @@
 <html lang="en">
 
 <head>
-
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>
 Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination
 </title>
-
 
 <style>
 
@@ -16,94 +15,104 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 900px;
     margin: auto;
-    padding: 45px;
-    color: #222;
+    padding: 40px 50px;
     line-height: 1.6;
+    color: #222;
 }
-
 
 h1 {
     text-align: center;
     font-size: 32px;
-    line-height: 1.35;
+    line-height: 1.3;
+    margin-bottom: 20px;
 }
 
-
-.author {
+.authors {
     text-align: center;
-    margin-top: 20px;
     font-size: 17px;
+    margin-bottom: 10px;
 }
-
 
 .affiliation {
     text-align: center;
     color: #555;
-    margin-top: 10px;
-    margin-bottom: 50px;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 45px;
 }
 
 
 h2 {
-    margin-top: 55px;
-    padding-bottom: 10px;
+    margin-top: 45px;
+    font-size: 25px;
     border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
 }
 
 
 h3 {
-    margin-top: 35px;
     font-size: 22px;
+    margin-bottom: 10px;
+}
+
+
+.video-title {
+    margin-top: 45px;
 }
 
 
 video {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
+}
+
+
+.section {
+    margin-top: 45px;
+}
+
+
+ul {
+    margin-top: 10px;
 }
 
 
 .footer {
-    text-align:center;
-    margin-top:80px;
-    color:#777;
-    font-size:14px;
+    margin-top: 70px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
 }
-
 
 </style>
 
-
 </head>
-
 
 
 <body>
 
 
-
 <h1>
-
-Contact-Assured Industrial Manipulation via Closed-Loop<br>
+Contact-Assured Industrial Manipulation via Closed-Loop
+<br>
 Visuo-Tactile Cyber-Physical Coordination
-
 </h1>
 
 
-
-<div class="author">
+<div class="authors">
 
 Sheng Lin, Yan Jiang, Xiang Fang, Yicheng Shi, Haoran Li, and Ziwei Wang
 
 </div>
 
 
-
 <div class="affiliation">
 
-School of Mechanical Engineering, Dalian Jiaotong University, China<br>
+School of Mechanical Engineering, Dalian Jiaotong University, China
+<br>
 
-School of Robotics, Xi'an Jiaotong-Liverpool University, China<br>
+School of Robotics, Xi’an Jiaotong-Liverpool University, China
+<br>
 
 School of Engineering, Lancaster University, UK
 
@@ -112,19 +121,20 @@ School of Engineering, Lancaster University, UK
 
 
 <p>
-This supplementary material provides experimental demonstrations associated with the manuscript:
+This supplementary webpage presents experimental videos associated with the manuscript:
 </p>
 
 
 <p>
-<b>
+<strong>
 "Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination"
-</b>
+</strong>
 </p>
 
 
 <p>
-The supplementary videos demonstrate the proposed closed-loop visuo-tactile manipulation framework, integrating RGB-D visual perception, optical tactile sensing, and adaptive gripper control. The demonstrations include real-platform grasping experiments and D-Sight tactile sensing feedback, showing how multimodal sensing supports contact-aware manipulation.
+The supplementary videos demonstrate the proposed closed-loop visuo-tactile manipulation framework, which integrates visual perception, optical tactile sensing, contact-state inference, and adaptive gripper velocity regulation within a perception–decision–actuation loop.
+The demonstrations include real-platform grasping experiments and D-Sight optical tactile sensing feedback, showing how multimodal sensing information supports reliable contact-aware manipulation.
 </p>
 
 
@@ -136,64 +146,94 @@ Supplementary Experimental Videos
 
 
 
+<div class="video-title">
+
+<h2>
+Supplementary Video 1
+</h2>
 
 
 <h3>
-Supplementary Video 1<br>
 Closed-Loop Visuo-Tactile Grasping Demonstration
 </h3>
 
 
-
 <p>
-This video demonstrates the real-platform closed-loop visuo-tactile grasping experiment proposed in this work. The experiment is conducted on an industrial manipulation platform consisting of a UR5 collaborative robotic arm, an OmniPicker two-finger adaptive gripper, an Orbbec Femto Bolt RGB-D camera, and two D-Sight optical tactile sensors.
+This video demonstrates the real-platform closed-loop visuo-tactile grasping experiment proposed in this work.
+The experiment is conducted on an industrial manipulation platform consisting of a UR5 collaborative robotic arm, an OmniPicker two-finger adaptive gripper, an Orbbec Femto Bolt RGB-D camera, and two D-Sight optical tactile sensors.
 </p>
 
 
 <p>
-The video demonstrates the complete grasping procedure, including object observation, gripper approaching, contact establishment, adaptive closing motion, and final object lifting. Visual and tactile feedback are integrated within the closed-loop framework to regulate gripper velocity and achieve stable manipulation.
+During the grasping process, visual and tactile information are synchronously collected to estimate the contact state and regulate the gripper motion.
+The proposed framework enables adaptive gripper velocity regulation based on contact information and applies a contact-depth-based stopping strategy to achieve stable object grasping.
 </p>
 
+
+<p>
+The video shows the complete manipulation procedure, including object observation, gripper approaching, contact-aware closing, adaptive velocity adjustment, and final object lifting.
+</p>
 
 
 <video controls>
 
-<source src="VTF-Closed-Loop-Grasping_Demonstration.mp4" type="video/mp4">
+<source src="VTF_Closed_Loop_Grasping_Demo.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
 
 </video>
 
 
+</div>
 
 
+
+
+
+
+<div class="video-title">
+
+
+<h2>
+Supplementary Video 2
+</h2>
 
 
 <h3>
-Supplementary Video 2<br>
 D-Sight Optical Tactile Sensing and Deformation Feedback
 </h3>
 
 
-
 <p>
-This video demonstrates the D-Sight optical tactile sensing process and the tactile deformation feedback captured by the sensor. The D-Sight optical tactile sensors provide contact information through visual measurement of deformation occurring on the sensing surface.
+This video demonstrates the D-Sight optical tactile sensing process and the tactile deformation feedback captured by the sensor.
+The D-Sight optical tactile sensors provide contact information through visual measurement of deformation occurring on the sensing surface.
 </p>
 
 
 <p>
-The tactile deformation feedback provides additional contact information beyond visual observation. This demonstration shows the sensor response during interaction and illustrates how tactile feedback contributes to contact-state understanding within the proposed visuo-tactile framework.
+The captured tactile information is used as an additional sensing modality alongside visual observation within the proposed visuo-tactile framework.
+The demonstration shows the sensor response during contact interaction and illustrates how tactile deformation feedback contributes to contact-state understanding.
 </p>
 
 
 
 <video controls>
 
-<source src="D_Sight_Optical_Tactile_Sensor_Demonstration.mp4.mp4" type="video/mp4">
+<source src="D_Sight_Optical_Tactile_Sensor_Demonstration.mp4" type="video/mp4">
+
+Your browser does not support the video tag.
 
 </video>
 
 
 
+</div>
 
+
+
+
+
+<div class="section">
 
 
 <h2>
@@ -201,31 +241,41 @@ Experimental Platform
 </h2>
 
 
-
 <p>
 The experimental platform consists of:
 </p>
 
 
-
 <ul>
 
-<li>UR5 collaborative robotic arm</li>
+<li>
+UR5 collaborative robotic arm
+</li>
 
-<li>OmniPicker two-finger adaptive gripper</li>
+<li>
+OmniPicker two-finger adaptive gripper
+</li>
 
-<li>Two D-Sight optical tactile sensors</li>
+<li>
+Two D-Sight optical tactile sensors
+</li>
 
-<li>Orbbec Femto Bolt RGB-D camera</li>
+<li>
+Orbbec Femto Bolt RGB-D camera
+</li>
 
 </ul>
 
 
 
-
 <p>
-The experimental platform integrates robotic manipulation, RGB-D visual sensing, and optical tactile sensing to enable closed-loop visuo-tactile interaction. The supplementary videos demonstrate the complete manipulation process, adaptive gripper velocity regulation, and tactile sensing feedback within the proposed framework.
+The experimental platform integrates robotic manipulation, RGB-D visual sensing, and optical tactile sensing to enable closed-loop visuo-tactile interaction.
+The supplementary videos demonstrate the complete manipulation process, adaptive gripper velocity regulation, and tactile sensing feedback within the proposed framework.
 </p>
+
+
+</div>
+
 
 
 
@@ -233,9 +283,7 @@ The experimental platform integrates robotic manipulation, RGB-D visual sensing,
 <div class="footer">
 
 Supplementary material for IEEE manuscript
-
 <br>
-
 Contact-Assured Industrial Manipulation via Closed-Loop Visuo-Tactile Cyber-Physical Coordination
 
 </div>
