@@ -20,6 +20,12 @@ The supplementary webpage demonstrates the proposed visuo-tactile closed-loop ma
 https://cc214214.github.io/VTF-Closed-Loop-Grasping/
 
 
+## Supplementary Grasping Results
+
+The table shows the grasp success rate for each of the seven objects tested with vision only, tactile only, and visuo-tactile fusion. Each method was tested 20 times per object. The revised manuscript focuses on the five sand cores.
+
+![Grasping results for seven objects](./TABLE%20IV%20GRASPING%20SUCCESS%20RATE%20COMPARISON%20ACROSS%20OBJECTS%20AND%20MODALITIES.png)
+
 ## Experimental Platform
 
 The experimental platform consists of:
